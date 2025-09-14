@@ -1,0 +1,10 @@
+{
+  "enabledCssSnippets": [
+    "custom_callouts",
+    "hide_block_id"
+  ],
+  "cssTheme": "Border",
+  "accentColor": "#8995e1",
+  "nativeMenus": false,
+  "theme": "obsidian"
+}
