@@ -253,7 +253,7 @@ Rechnen:
 >^tldr
 
 >[!link] Hilfreiche Links
->Zu: [[#Gleitkommadarstellung]]:
+>Zu [[#Gleitkommadarstellung]]:
 >[Video: How Floating-Point Numbers Are Represented - Spanning Tree](https://www.youtube.com/watch?v=bbkcEiUjehk) 
 
 >[!source] Quellen

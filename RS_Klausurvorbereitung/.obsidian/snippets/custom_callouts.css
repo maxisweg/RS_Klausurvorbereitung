@@ -1,0 +1,86 @@
+/* Target Callout */
+.callout[data-callout="target"] {
+    --callout-color: 186, 39, 74;
+    --callout-icon: lucide-target;
+}
+
+/* Idea Callout */
+.callout[data-callout="idea"] {
+    --callout-color: 249, 220, 92;
+    --callout-icon: lucide-lightbulb;
+}
+
+/* Link Callout */
+.callout[data-callout="link"] {
+    --callout-color: 16, 121, 251;
+    --callout-icon: lucide-link;
+}
+
+/* Construction Callout */
+.callout[data-callout="construction"] {
+    --callout-color: 255, 111, 89;
+    --callout-icon: lucide-construction;
+}
+
+/* Source Callout */
+.callout[data-callout="source"] {
+    --callout-color: 170, 170, 170;
+    --callout-icon: lucide-globe;
+}
+
+/* Exercise Callout */
+.callout[data-callout="exercise"] {
+    --callout-color: 252, 170, 103;
+    --callout-icon: notepad-text;
+}
+
+/* Theorem Callout */
+.callout[data-callout="theorem"] {
+    --callout-color: 120, 120, 120;
+    --callout-icon: scroll;
+}
+
+/* Sparkles */
+.callout[data-callout="sparkles"] {
+    --callout-color: 220, 243, 166;
+    --callout-icon: sparkles;
+}
+
+/* Telescope */
+.callout[data-callout="telescope"] {
+    --callout-color: 184, 218, 241;
+    --callout-icon: telescope;
+}
+
+/* Code */
+.callout[data-callout="code"] {
+    --callout-color: 90, 90, 90;
+    --callout-icon: code;
+
+    & .callout-icon .svg-icon {
+        color: #B4B4B4;
+    }
+
+    & .callout-title-inner {
+        color: #DB5792; /* red: #FF6978, pink: #DB5792  */
+        font-family: var(--font-monospace);
+        padding-left: 3px;
+        padding-top: 1px;
+    }
+
+    & .callout-fold {
+        color: #B4B4B4;
+    }
+}
+
+/* Runtime */
+.callout[data-callout="runtime"] {
+    --callout-color: 220, 243, 166;
+    --callout-icon: timer;
+}
+
+/* Memory */
+.callout[data-callout="memory"] {
+    --callout-color: 184, 218, 241;
+    --callout-icon: memory-stick;
+}
