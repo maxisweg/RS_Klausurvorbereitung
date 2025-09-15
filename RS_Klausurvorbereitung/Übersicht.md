@@ -1,10 +1,5 @@
 ## Informationen
 
-> [!info] Offizielle Ankündigung
-> - #todo
-> 
-> [Quelle](placeholder)
-
 >[!info] Weitere Informationen
 >Es steht eine RISC-V Befehlsliste und ISO-Gatterliste für die Klausur bereit. Diese wird vor Ort verteilt. Sie ist im [Lernraum](https://lernraum.th-luebeck.de/course/section.php?id=73536) zu finden.
 
