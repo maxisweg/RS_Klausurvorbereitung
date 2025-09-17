@@ -164,7 +164,7 @@ Die Darstellung natürlicher Zahlen ist nicht ausreichend. Es werden Brüche (Gl
 >
 >- Der Zahlenbereich ist nicht symmetrisch: $[-2^n,2^n-2^{-k}]$
 >- *Es gibt eine einzige Darstellung für $0$.*
->- Ermöglicht elegante Arithmetik analog Dezimalsystem (Subtraktion las Addition einer negativen Zahl)
+>- Ermöglicht elegante Arithmetik analog Dezimalsystem (Subtraktion als Addition einer negativen Zahl)
 >- Allgemein verwendete Darstellung für Festkommazahlen.
 
 >[!info]- Exzesscodierung (Bias)
@@ -221,9 +221,15 @@ Die eindeutige Darstellung erfolgt durch Normalisierung:
 
 Einfache Genauigkeit: 32 Bit
 
-![[IEEE754_single_precision.png]] #todo improve
+![[IEEE754_single_precision.png]] 
 
 Doppelte Genauigkeit: 64 Bit
+
+S: 1 Bit
+E: 11 Bit
+M: 52 Bit
+
+#todo improve
 
 Sonderfälle:
 

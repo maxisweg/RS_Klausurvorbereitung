@@ -27,7 +27,7 @@ Unter *Speicherorganisation* versteht man, wie ein Computer Programmcode und Dat
 
 <table style="width:100%"> <tr>
 <th>Von-Neuman-Architektur</th>
-<td>- Programm und Daten im gleichen Speicher<br>- Interpretation, ob Inhalt Befehl oder Datum ist, entscheidet die CPU<br>- Einfachere Architektur</td>
+<td>- Programm und Daten im gleichen Speicher<br>- Interpretation, ob Inhalt Befehl oder Datum ist, entscheidet die CPU<br>- Einfachere Architektur<br>- Von Neumann Bottleneck: Es kann nur eine Instruktion bzw. Daten zurzeit durch den Bus geladen werden; die CPU wartet viel.</td>
 </tr>
 <tr>
 <th>Harvard-Architektur</th>
@@ -49,8 +49,9 @@ Die *Funktionseinheiten* einer CPU sind die einzelnen Bausteine, die zusammen di
 >- [[!Begriffe#^datenregister|Datenregister]]
 
 >[!info]- Spezialregister
->Das *Spezialregister* besteht unter anderem aus:
->- [[!Begriffe#^pc|Programm Counter (PC)]], [[!Begriffe#^ir|Instruktionsregister (IR)]]
+>Einige *Spezialregister* sind:
+>- [[!Begriffe#^pc|Programm Counter (PC)]]
+>- [[!Begriffe#^ir|Instruktionsregister (IR)]]
 >- Status der CPU (z.B. der letzten Berechnung der ALU) → "[[!Begriffe#^flags|Flags]]"
 
 >[!info]- Interne Leitungen
