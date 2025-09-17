@@ -329,15 +329,11 @@ pop:
 
 <table style="width:100%"> <tr>
 <th>Kontrollflussbasiert</th>
-<td>- Programmablauf verzweigt mehrfach, verästelt
-- Einzelne Bedingungen steuern, welcher Weg duch den Code genommen wird
-- Schleifen überall möglich</td>
+<td>- Programmablauf verzweigt mehrfach, verästelt<br>- Einzelne Bedingungen steuern, welcher Weg duch den Code genommen wird<br>- Schleifen überall möglich</td>
 </tr>
 <tr>
 <th>Zustandsbasiert</th>
-<td>- Verhalten hängt davon ab, in was für einer Situation sich das System befindet
-- Je Zustand unterschiedliches Verhalten, u.A. Ausgabe und Zustandswechsel
-- Keine Schleifen innerhalb der Zustände zulässig</td>
+<td>- Verhalten hängt davon ab, in was für einer Situation sich das System befindet<br>- Je Zustand unterschiedliches Verhalten, u.A. Ausgabe und Zustandswechsel<br>- Keine Schleifen innerhalb der Zustände zulässig</td>
 </tr></table>
 
 In vielen technischen Systemen sind je nach Situation nur bestimmte Aktionen sinnvoll (oder möglich). Das Verhalten wird vom aktuellen Systemzustand und aktueller Eingabe abhängig gemacht (Automatenmodell).

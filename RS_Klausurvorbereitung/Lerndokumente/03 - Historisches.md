@@ -30,7 +30,7 @@ Eigenschaften:
 
 ![[von-Neumann.png]]
 
-Die von-Neumann-Architektur legte mit ihren Innovation das Fundament moderner Computerarchitekturen.
+Die von-Neumann-Architektur legte mit ihren Innovationen das Fundament moderner Computerarchitekturen.
 
 ---
 ## Moore's Law

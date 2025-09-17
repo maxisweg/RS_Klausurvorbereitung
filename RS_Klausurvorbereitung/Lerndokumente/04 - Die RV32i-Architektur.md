@@ -27,15 +27,11 @@ Unter *Speicherorganisation* versteht man, wie ein Computer Programmcode und Dat
 
 <table style="width:100%"> <tr>
 <th>Von-Neuman-Architektur</th>
-<td>- Programm und Daten im gleichen Speicher
-- Interpretation, ob Inhalt Befehl oder Datum ist, entscheidet die CPU
-- Einfachere Architektur</td>
+<td>- Programm und Daten im gleichen Speicher<br>- Interpretation, ob Inhalt Befehl oder Datum ist, entscheidet die CPU<br>- Einfachere Architektur</td>
 </tr>
 <tr>
 <th>Harvard-Architektur</th>
-<td>- Separate Speicher für Programm und Daten
-- Bedeutung des Speicherinhalts als Befehl oder Datum durch Speichermodul vorgegeben
-- Komplexer im Aufbau, aber besser erweiterbar und optimierbar</td>
+<td>- Separate Speicher für Programm und Daten<br>- Bedeutung des Speicherinhalts als Befehl oder Datum durch Speichermodul vorgegeben<br>- Komplexer im Aufbau, aber besser erweiterbar und optimierbar</td>
 </tr></table>
 
 ---
@@ -44,13 +40,16 @@ Unter *Speicherorganisation* versteht man, wie ein Computer Programmcode und Dat
 Die *Funktionseinheiten* einer CPU sind die einzelnen Bausteine, die zusammen die Befehlsausführung ermöglichen.
 
 >[!info]- Steuerwerk
->Das *Steuerwerk* ist die Einheit, die den Befehl interpretiert und das Operationswerk über Steuerleitungen kontrolliert. Es ist verantwortlich für die Abarbeitung des Befehls, ggf. in mehreren Schritten und unter Beachtung des CPU-Zustands (Flags).
+>Das *Steuerwerk* ist die Einheit, die den Befehl interpretiert und das Operationswerk über Steuerleitungen kontrolliert. Es ist verantwortlich für die Abarbeitung des Befehls, ggf. in mehreren Schritten und unter Beachtung des CPU-Zustands ([[!Begriffe#^flags|Flags]]).
 
 >[!info]- Operationswerk
+>Das *Operationswerk* besteht unter anderem aus:
+>
 >- [[!Begriffe#^alu|Arithmetisch-Logische Einheit (ALU)]]
 >- [[!Begriffe#^datenregister|Datenregister]]
 
 >[!info]- Spezialregister
+>Das *Spezialregister* besteht unter anderem aus:
 >- [[!Begriffe#^pc|Programm Counter (PC)]], [[!Begriffe#^ir|Instruktionsregister (IR)]]
 >- Status der CPU (z.B. der letzten Berechnung der ALU) → "[[!Begriffe#^flags|Flags]]"
 
@@ -63,7 +62,7 @@ Die *Funktionseinheiten* einer CPU sind die einzelnen Bausteine, die zusammen di
 ---
 ## Anzahl der Takte je Befehl
 
-Ein *Takt* ist die kleinste zeitliche Einheit, in der eine PCU eine bestimmte Teilarbeit verrichten kann. Wie viele Takte ein Befehl benötigt, bestimmt, wie schnell ein Programm ausgeführt wird.
+Ein *Takt* ist die kleinste zeitliche Einheit, in der eine CPU eine bestimmte Teilarbeit verrichten kann. Wie viele Takte ein Befehl benötigt, bestimmt, wie schnell ein Programm ausgeführt wird.
 
 - *Ein-Zyklus-Prozessor*: Jeder Befehl in $1$ Takt.
 - *Mehrzyklus-Prozessor*: Befehle benötigen feste Anzahl $\gt 1$.

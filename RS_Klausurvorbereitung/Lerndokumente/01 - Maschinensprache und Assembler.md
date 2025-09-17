@@ -25,24 +25,15 @@ Eine menschenlesbare Beschreibung der Maschinensprachenbefehle nennt sich Assemb
 
 <table style="width:100%"> <tr>
 <th>Hochsprache</th>
-<td>- Menschenlesbar
-- Komplexe Strukturen wie Schleifen möglich
-- Variablen mit frei wählbaren Namen, Speicherverwaltung durch Compiler
-- Abhängigkeit von Bibliotheken und Betriebssystem (für z.B. printf)
-- Übersetzung in Maschinensprache durch Compiler &amp; Linker</td>
+<td>- Menschenlesbar<br>- Komplexe Strukturen wie Schleifen möglich<br>- Variablen mit frei wählbaren Namen, Speicherverwaltung durch Compiler<br>- Abhängigkeit von Bibliotheken und Betriebssystem (für z.B. printf)<br>- Übersetzung in Maschinensprache durch Compiler &amp; Linker</td>
 </tr>
 <tr>
 <th>Assembler</th>
-<td>- Menschenlesbare Darstellung der Maschinensprache
-- Direkter Zugriff auf Register der CPU
-- Keine komplexen Konstrukte; Schleifen müssen durch Sprünge (Labels) umgesetzt werden
-- Speicherallokation entfällt, da feste Reister genutzt werden</td>
+<td>- Menschenlesbare Darstellung der Maschinensprache<br>- Direkter Zugriff auf Register der CPU<br>- Keine komplexen Konstrukte; Schleifen müssen durch Sprünge (Labels) umgesetzt werden<br>- Speicherallokation entfällt, da feste Reister genutzt werden</td>
 </tr>
 <tr>
 <th>Maschinensprache</th>
-<td>- Nicht menschenlesbar
-- Reine Folge von Binärzahlen (Opcode + Operanden)
-- Wird direkt von der CPU verstanden</td>
+<td>- Nicht menschenlesbar<br>- Reine Folge von Binärzahlen (Opcode + Operanden)<br>- Wird direkt von der CPU verstanden</td>
 </tr> </table>
 
 ---

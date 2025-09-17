@@ -19,9 +19,12 @@
 >---
 >(Siehe Foliensatz 14 - Zusammenfassung)
 
-#todo 
+Schaltwerke haben gegenüber Schaltnetzen die Möglichkeit Zustände zu speichern.
 
 ---
+## Flip-Flop
+
+Ein *Flip-Flop* ist eine elektronische Schaltung, die zwei stabile Zustände einnehmen und diese unbegrenzt speichern kann.
 
 #todo 
 
@@ -33,8 +36,13 @@
 >^tldr
 
 >[!link] Hilfreiche Links
->#todo
+>Zu [[#RS Flip-Flop]]:
+>- [Video: SR latch - Ben Eater](https://www.youtube.com/watch?v=KM0DdEaY5sY)
+>
+>Zu [[#D-Flip-Flop]]:
+>- [Video: D latch - Ben Eater](https://www.youtube.com/watch?v=peCh_859q7Q)
+>- [Video: D flip-flop - Ben Eater](https://www.youtube.com/watch?v=YW-_GkUguMM)
 
 >[!source] Quellen
->[[placeholder.pdf]]
+>- RS Foliensatz 9 - Schaltwerke
 >^sources

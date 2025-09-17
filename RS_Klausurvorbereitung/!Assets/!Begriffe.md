@@ -23,11 +23,14 @@ Dieses Dokument dient zum zusammenfassen einiger allgemeineren Definitionen in e
 >*Flags* beschreiben den Zustand der CPU, z.B. Informationen über letzte arithmetische Operation (Overflow, Zero, ...).
 >^flags
 
->[!info] Multiplexer
+>[!info] Multiplexer (MUX)
 >Der *Multiplexer* ist ein Schalter für die Steuerung der Datenpfade.
+>
+>Die Steuersignale des Multiplexers wählen, welche Eingangssignale an den Ausgang weitergegeben werden. Bei $n$ Steuersignalen hat der Multiplexer $2^n$ Eingänge
 >
 >---
 >[Mehr - Wikipedia](https://de.wikipedia.org/wiki/Multiplexer)
+>[Video - simpleclub](https://www.youtube.com/watch?v=JpnVqaSE5_w)
 >^multiplexer
 
 >[!info] Adress-Addierer

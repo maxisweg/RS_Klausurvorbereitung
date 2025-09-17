@@ -33,7 +33,7 @@ Basierend auf den 16-Bit Architekturen haben sich Namen für größere Informati
 
 - *Word*: $32$ Bit
 - *Half word*: $16$ Bit
-- *Byte*: $8$ Byte
+- *Byte*: $8$ Bit
 
 Bei der Darstellung von Information spricht man von *Codierungen*.
 
@@ -213,14 +213,15 @@ Die Gleitkommadarstellung ist mehrdeutig:
 
 Die eindeutige Darstellung erfolgt durch Normalisierung:
 
-- Mantisse in der Form $1,\text{xxxxx}$
-- Normalisierte Mantisse: $1\leq M\lt2$
+- Die Mantisse hat die Form $1,\text{xxxxx}$, also $1\leq M\lt2$
 - Führende $1$ weggelassen: nur Nachkommastellen codiert
 	- Nachkommateil der Mantisse heißt *Fraction*.
 
 #### Standardisierte Darstellung: IEEE 754
 
 Einfache Genauigkeit: 32 Bit
+
+![[IEEE754_single_precision.png]] #todo improve
 
 Doppelte Genauigkeit: 64 Bit
 
@@ -254,7 +255,12 @@ Rechnen:
 
 >[!link] Hilfreiche Links
 >Zu [[#Gleitkommadarstellung]]:
->[Video: How Floating-Point Numbers Are Represented - Spanning Tree](https://www.youtube.com/watch?v=bbkcEiUjehk) 
+>
+>- [Video: How Floating-Point Numbers Are Represented - Spanning Tree](https://www.youtube.com/watch?v=bbkcEiUjehk) 
+>- [Video: HOW TO: Convert Decimal to IEEE-754 Single-Precision Binary - Steven Petryk](https://www.youtube.com/watch?v=tx-M_rqhuUA)
+>
+>Zu [[#Addition]]:
+>- [Video: HOW TO: Adding IEEE-754 Floating Point Numbers](https://www.youtube.com/watch?v=mKJiD2ZAlwM)
 
 >[!source] Quellen
 >- RS Foliensatz 5 - Information und Zahlendarstellung
